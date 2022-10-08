@@ -1,0 +1,95 @@
+.container{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    margin-top: 200;
+    margin: auto;
+    animation-play-state: paused;
+}
+.box{
+    height: 50px;
+    width: 50px;
+}
+.red{
+    background-color: red;
+    animation: move 1s;
+    animation-play-state: paused;
+}
+
+@keyframes move{
+    0%{
+
+
+    }
+
+    100%{
+        transform: rotate(90deg);
+        transform-origin: top left;
+    }
+}
+
+.yellow{
+    background-color:yellow;
+    animation: moveYellow 1s;
+    animation-play-state: paused;
+}
+
+@keyframes moveYellow{
+    0%{
+
+
+    }
+
+    100%{
+        transform: rotate(-90deg);
+        transform-origin: top right;
+    }
+}
+
+.blue{
+    margin: auto;
+    background-color:blue;
+    animation: moveBlue 1s;
+    animation-play-state: paused;
+
+   
+}
+
+@keyframes moveBlue{
+    0%{
+
+
+    }
+
+    100%{
+        transform: rotate(-90deg);
+        transform-origin: bottom left;
+    }
+}
+
+.green{
+    margin: auto;
+    background-color: green;
+    animation: moveGreen 1s;
+    animation-play-state: paused;
+}
+
+.red:hover, .blue:hover, .yellow:hover, .green:hover{
+    animation-play-state: running;
+}
+
+
+
+@keyframes moveGreen{
+    0%{
+
+
+    }
+
+    100%{
+        transform: rotate(90deg);
+        transform-origin: bottom right;
+    }
+}

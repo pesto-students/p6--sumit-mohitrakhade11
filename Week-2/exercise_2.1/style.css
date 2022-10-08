@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+:root{
+    --clr-primary:#0e7490;
+    --font-clr-dark:#0f172a;
+    --font-clr-light:#1e293b;
+    --bg-clr:#EBEBEB;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-nav{
+    font-size: 2em;
+    margin: 0%;
+    color: var(--font-clr-light);
+}
+#title-main{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--clr-primary);
+}
+/* book section */
+.book-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f8fafc;
+    margin: 5px;
+}
+.book-img{
+    width: 15rem;
+    height: 20rem;
+}
+.dis-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* .dis-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} */
+.para{
+    width: 15rem;
+    
+}
+.book-details{
+    padding: 1rem;
+    margin: 5rem;
+}
+.contact-me-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 1rem;
+    border: 1.5px solid var(--clr-primary);
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+input:focus{
+    outline: none !important;
+    border-color: var(--clr-primary);
+    /* box-shadow: 0 0 10px #719ECE; */
+
+}
+.contact-me-title{
+    color: var(--clr-primary);
+    font-size: 2em;
+    font-weight: bold;
+}
+label{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+input{
+    margin: 1rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+button{
+    background-color: transparent;
+    border: 2px solid var(--clr-primary);
+    font-size: 1.2em;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: var(--clr-primary);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2e8f0;
+    padding: 2rem;
+}
+.bi{
+    margin: 2rem;
+    font-size: 2em;
+    cursor: pointer;
+}
+.bi:hover{
+    transform: scale(2);
+}
