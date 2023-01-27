@@ -1,0 +1,8 @@
+Loaders
+Toasts
+Exception Handling
+Favicon
+Logo
+Meta Image
+
+Remove className Regex - className="([^"]+)"
