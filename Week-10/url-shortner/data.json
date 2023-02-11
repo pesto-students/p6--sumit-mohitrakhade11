@@ -1,0 +1,83 @@
+{
+	"id": {
+		"url": {
+			"title": "",
+			"longURL": "",
+			"shortURL": "",
+			"code": ""
+		},
+		"stats": {
+			"clicks": "",
+			"facebook": "",
+			"twitter": "",
+			"pinterest": "",
+			"instagram": "",
+			"googlePlus": "",
+			"linkedin": "",
+			"rest": "",
+			"devices": {
+				"geo": {
+					"0": {
+						"tag": "IN",
+						"clicks": "4"
+					}
+				},
+				"dev": {
+					"0": {
+						"tag": "Desktop",
+						"clicks": "3"
+					},
+					"1": {
+						"tag": "Mobile",
+						"clicks": "1"
+					}
+				},
+				"sys": {
+					"0": {
+						"tag": "Mac 10.15",
+						"clicks": "3"
+					},
+					"1": {
+						"tag": "Android 11",
+						"clicks": "1"
+					}
+				},
+				"bro": {
+					"0": {
+						"tag": "Safari 15.6",
+						"clicks": "2"
+					},
+					"1": {
+						"tag": "Chrome Mobile 104.0",
+						"clicks": "1"
+					},
+					"2": {
+						"tag": "Chrome 104.0",
+						"clicks": "1"
+					}
+				},
+				"brand": {
+					"0": {
+						"family": "Other",
+						"tag": "Other",
+						"clicks": "1"
+					},
+					"1": {
+						"family": "Apple",
+						"tag": "Other",
+						"clicks": "3"
+					}
+				},
+				"lang": {
+					"0": {
+						"tag": "EN",
+						"clicks": "4"
+					}
+				}
+			},
+			"refs": {},
+			"bots": "Insufficient subscription level"
+		},
+		"qrCode": ""
+	}
+}
