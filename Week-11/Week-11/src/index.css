@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	transition: all 0.25s ease;
+	outline: none;
+}
+body {
+	font-family: Inter, sans-serif;
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+body::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+.buttonBG,
+footer {
+	background-color: #2cbcb2;
+}
+.buttonBG:hover,
+.buttonBG.active,
+.scrollUp {
+	background-color: #d44e28;
+}
+a:hover,
+li .active {
+	color: whitesmoke;
+}
+.colorBlue {
+	color: #2cbcb2;
+}
+table,
+th,
+td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+th {
+	font-size: 18px;
+}
+td {
+	padding: 5px 12px 5px 12px;
+}
