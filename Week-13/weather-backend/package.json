@@ -1,0 +1,17 @@
+{
+	"name": "weather-backend",
+	"version": "1.0.0",
+	"description": "Assignment For Week 13",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "Devansh Dalmia",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"express": "^4.18.1"
+	}
+}
